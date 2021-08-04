@@ -11,8 +11,9 @@ import pandas as pd
 
 # pandas follws numpy's datetime64 type
 # Usage of Timestamp class
-pd.Timestamp(1239.1238934, unit='D')
-pd.Timestamp('2021-1-1')
+pd.Timestamp(1500.2351, unit='D')     # ISO 8601 times, YYYY-MM-DD hh:mm:ss
+pd.Timestamp('2021-1-1 12')           # generate Timestamp object
 pd.to_datetime('2021-1-1 12')
-pd.to_datetime(['2020-1-1', '2021-1-2'])
-pd.date_range('')
+
+pd.to_datetime(['2020-1-1', '2021-1-2'])  # genetate DatetimeIndex object
+pd.date_range('2020-01', '2021-02')       # data type = datetime65[ns]
