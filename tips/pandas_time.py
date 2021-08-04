@@ -16,4 +16,4 @@ pd.Timestamp('2021-1-1 12')           # generate Timestamp object
 pd.to_datetime('2021-1-1 12')
 
 pd.to_datetime(['2020-1-1', '2021-1-2'])  # genetate DatetimeIndex object
-pd.date_range('2020-01', '2021-02')       # data type = datetime65[ns]
+pd.date_range('2020-01', '2021-02')       # data type = datetime64[ns]
