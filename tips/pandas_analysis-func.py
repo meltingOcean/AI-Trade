@@ -4,7 +4,7 @@
 
 import pandas as pd
 
-path = '/workspace/AI-Trade_/datas/AAPL.csv'    # data file path
+path = ''    # data file path
 dataframe = pd.read_csv(path, index_col='Date', parse_dates=['Date'])
 
 # pct_change() function
