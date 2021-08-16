@@ -1,10 +1,9 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import DataFrame_preprocess
-
-
+import tools.DataFrame_preprocess
 # import FinanceDataReader as fdr
+
 
 pd.set_option('display.max_seq_items', None)
 pd.set_option('display.max_rows', None)
@@ -33,8 +32,8 @@ dataframe.fillna(method='bfill', inplace=True)
 
 # print rows that have NaN or infinity value least 1
 print(dataframe[dataframe.isin([np.nan, np.inf, -np.inf]).any(1)])
-# dataframe.fillna(method='pad')  # forward filling
 
+# dataframe.fillna(method='pad')  # forward filling
 # dataframe.fillna(method='bfill') # backward filling
 
 
