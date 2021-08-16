@@ -1,10 +1,10 @@
-# This file shows usage of important functions in pandas.
+# This code shows usage of important functions in pandas.
 # These functions are useful to analysis data.
 # Use csv file saved your local directory.
 
 import pandas as pd
 
-path = ''    # data file path
+path = '/workspace/AI-Trade_/datas/AAPL.csv'    # data file path
 dataframe = pd.read_csv(path, index_col='Date', parse_dates=['Date'])
 
 # pct_change() function
