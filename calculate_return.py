@@ -8,8 +8,8 @@ dataframe['Daily Return'] = dataframe['Adj Close'].pct_change()
 dataframe['Cumul Return'] = (1 + dataframe['Daily Return']).cumprod()
 
 base_date = '2020-09-10'
-temp_df = dataframe.loc[base_date:,['Cumul Return']] / dataframe.loc[base_date, ['Cumul Return']]
+temp_df = dataframe.loc[base_date:, ['Cumul Return']] / dataframe.loc[base_date, ['Cumul Return']]
 last_date = temp_df.index[-1]
-print(temp_df.loc[last_date,'Cumul Return'])    
-temp_df.plot(figsize=(16,9))
+print(temp_df.loc[last_date, 'Cumul Return'])
+temp_df.plot(figsize=(16, 9))
 plt.savefig('/workspace/AI-Trade_/plots/cumulreturn.png')
