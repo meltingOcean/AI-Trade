@@ -1,15 +1,19 @@
 # AI-Trade
-## Data Science & Machine Learning
 
-### - This repository contains efficient tools for quantitative traders
+## DL Quant Strategy
+- Deep Learning Quant Strategy
 
+## ML Quant Strategy
+- Machine Learning Quant Strategy
 
+## Trend labeling
 
-## Fields of research
+- Various method for labeling finance data
 
+## None ML Quant Strategy
 
-### - Data mining
-### - Data proccessing
-### - Quantitative investment strategy
-### - Machine learning investment strategy
-### - Deep learning investment strategy
+- depend on technical analysis
+
+## Trading timing decision
+
+- Research on how to optimize the timing of trading 
