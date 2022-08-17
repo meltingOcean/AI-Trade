@@ -57,7 +57,7 @@ Reasearch of Full Stack AI-Trade, From data gathering to trading.
 
 데이터 수집부터 실제 트레이딩 까지의 모든 과정이 하나의 프로그램으로써
 
-데이터 파이프라인을 구성하고 요구되는 리소스를 최적화 시키는 방법에 대해서 연구합니다.
+데이터 파이프라인(Spark)을 구성하고 분산처리(Hadoop)을 통해서 최적화 시키는 방법에 대해서 연구합니다.
 
 
 ---
